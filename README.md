@@ -1,16 +1,46 @@
-# React + Vite
+🏡 Property Website (React + Vite)
+A modern property management web application built with React and Vite.
+This project allows users to rent, buy, and add properties, providing a simple and intuitive interface for property listings.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+🔍 Browse properties for rent or sale
 
-Currently, two official plugins are available:
+➕ Add new property listings with details and images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏠 User-friendly dashboard for managing properties
 
-## React Compiler
+⚡ Fast development environment powered by Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎨 Clean and responsive UI with React components
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React, Vite, JavaScript, Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+State Management: React Hooks / Context API
+
+Linting: ESLint rules for clean code
+
+Build Tools: Vite plugins (@vitejs/plugin-react, @vitejs/plugin-react-swc)
+
+📂 Project Structure
+Code
+property-website/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Page-level components (Home, Rent, Buy, Add Property)
+│   ├── assets/      # Images, icons
+│   ├── App.jsx      # Main app entry
+│   └── main.jsx     # React DOM rendering
+├── package.json
+├── vite.config.js
+└── README.md
+
+📌 Future Improvements
+🔑 User authentication for property owners
+
+💾 Backend integration (Node.js / Laravel / MongoDB)
+
+📱 Mobile-friendly responsive design
+
+🗺️ Map integration for property locations
